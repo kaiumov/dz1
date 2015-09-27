@@ -4,28 +4,186 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>Главная страница</title>
+	<title>Домашнее задание #1</title>
 	<!-- SEO -->
 	<meta name="description" content="Homework" >
-	<meta name="keywords" content="homework1">	
+	<meta name="keywords" content="homework1">
+
 	<!-- favicon.ico -->
 	<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
-	<!-- <link rel="icon" href="/ico" type="image/x-icon"> -->
+	<link rel="icon" href="img/t.ico" type="image/x-icon">
+	
 	<!-- Bower CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about-me.css">
-	<!-- modernizer -->
-	<!-- ???? -->
-
+	<!-- FONTS -->
+	<link rel="stylesheet" href="fonts/fira/fira.css">
+	
 </head>
 <body>
-	<!--[if lt IE 7]>
+<!--[if lt IE 7]>
 	<p class="browserhappy"> Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите</a> его.</p>
 	<![endif]-->
-	<h1>Проверка локального сервера </h1>
-	<script src="bower/jquery/dist/jquery.js"></script>
-	<script src="js/main.js"></script>
+
+		
+	<div class="wrapper">
+		<div class="main-content">
+		<header class="page-header">
+			<div class="container-big">
+				
+				<a href="header-logo-link">
+					<img src="img/logo.png" height="42" width="243" alt="logo" class="logo-img"><span class="header-logo-text">Сайт портфолио</span></a>
+				<ul class="socials">
+					<li class="socials-item">
+						<a href="http://vk.com/" target="_blank" class="socials-link vk">vk.com</a>
+					</li>
+					<li class="socials-item">
+					<a href="http://twitter.com/" target="_blank" class="socials-link tw">twitter.com</a>
+					</li>
+					<li class="socials-item">
+					<a href="http://facebook.com/" target="_blank" class="socials-link fb">facebook.com</a>
+					</li>
+					<li class="socials-item">
+					<a href="http://github.com/" target="_blank" class="socials-link gt">github.com</a>
+					</li>
+
+				</ul>
+			</div>
+			
+		</header>
+			<div class="container">
+				<!-- Sidebar -->
+				<aside class="sidebar">
+					<nav class="navigation">
+						<ul class="navigation-list">
+							<li class="navigation-item current"><a href="/" class="navigation-link">Обо мне</a></li>
+							<li class="navigation-item"><a href="/my-work.html" class="navigation-link">Мои работы</a></li>
+							<li class="navigation-item"><a href="/contact-me.html" class="navigation-link">Связаться со мной</a></li>
+						</ul>
+					</nav>
+					
+					<address class="contacts">
+			  			
+						<ul class="contacts-list">
+							<li class="contacts-head">Контакты</li>
+							<li class="contacts-inner mail">
+								<a href="mailto:t.kaiumov@yandex.ru" class="contacts-items">kaiumov@yandex.ru</a>
+							</li>
+							<li class="contacts-inner tel">
+								<a href="callto:+7911000000" class="contacts-items">+7911000000</a>
+							</li>
+							<li class="contacts-inner skype">
+								<a href="skype:emerseru" class="contacts-items">emerseru</a>
+							</li>
+						</ul>
+					</address>
+
+				</aside>
+				<!-- Изменяемый контент -->
+				<div class="variable-content">
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Основная информация</h2>
+						<div class="aboutbox-body clearfix">
+							<div class="image-wrap">
+								<div class="avatar-box"><img src='img/face1.png' alt="tim" class="avatar"></div>
+							</div>
+							<div class="worksheet-wrap">
+								<ul class="worksheet-list">
+									<li class="worksheet-itemm clearfix">
+										<div class="worksheet-what">Меня зовут:</div>
+										<div class="worksheet-info">Каюмов Тимур</div>
+									</li>
+									<li class="worksheet-itemm clearfix">
+										<div class="worksheet-what">Мой возраст:</div>
+										<div class="worksheet-info">27 лет</div>
+									</li>
+									<li class="worksheet-itemm clearfix">
+										<div class="worksheet-what">Мой город:</div>
+										<div class="worksheet-info">Калининград</div>
+									</li>
+									<li class="worksheet-itemm clearfix">
+										<div class="worksheet-what">Моя специализация:</div>
+										<div class="worksheet-info">Frontend разработчик</div>
+									</li>
+									<li class="worksheet-itemm clearfix">
+										<div class="worksheet-what">Ключевые навыки:</div>
+										<div class="worksheet-info"> 
+											<ul class="skill">
+												<li class="skill-item">html</li>
+												<li class="skill-item">css</li>
+												<li class="skill-item">javascript</li>
+												<li class="skill-item">gulp</li>
+												<li class="skill-item">git</li>
+
+											</ul>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Опыт работы</h2>
+						<div class="aboutbox-body clearfix"> 
+							<ul class="experience">
+								<li class="experience-item">
+									<div class="experience-name">"ИП Каюмов" </div>
+									<div class="experience-date">2011 по настоящее время</div>
+								</li>
+			
+								<li class="experience-item">
+									<div class="experience-name">"ООО ГазКомплектИмпекс" - Системный администратор</div>
+									<div class="experience-date">2009-2011</div>
+								</li>
+
+							</ul>
+
+						</div>
+
+					</section> 
+					
+					<section class="aboutbox">
+						<h2 class="aboutbox-header">Образование</h2>
+						<div class="aboutbox-body clearfix"> 
+							<ul class="experience">
+								<li class="edu1">
+									<div class="experience-name">Высшее. Калининградский государственный технический университет</div>
+									<div class="experience-date">2005-2010</div>
+								</li>
+
+								<li class="edu2">
+									<div class="experience-name">Курсы Loftschool.ru</div>
+									<div class="experience-date">Сентябрь 2015 - по настоящее время</div>
+								</li>
+							</ul>
+
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<footer class="page-footer">
+		
+		<div class="container">
+			<div class="lock">
+				<a href="/login.html" class="lock-inner">Войти</a>
+			</div>
+			<div class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</div>
+		</div>			
+	</footer>
+	
+
+
+
+
+<script src="bower/jquery/dist/jquery.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
